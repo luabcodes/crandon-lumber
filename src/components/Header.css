@@ -21,7 +21,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 40px; /* <<< ESPAÇAMENTO REAL ENTRE BOTÕES */
+  gap: 40px;
 }
 
 .nav-links li a {

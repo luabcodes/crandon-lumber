@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 140px; /* espaço do header */
+  padding-top: 140px; 
   background: radial-gradient(
     circle at top,
     #122417 0%,
@@ -27,7 +27,7 @@
   object-fit: cover;
 }
 
-/* TEXTO ABAIXO */
+
 .hero-below {
   margin-top: 48px;
   text-align: center;

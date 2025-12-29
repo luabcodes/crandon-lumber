@@ -15,7 +15,7 @@ function Hero() {
         />
       </div>
 
-      {/* CONTEÚDO AGORA FICA ABAIXO DO VÍDEO */}
+      {}
       <div className="hero-content-below">
         <h1>Crandon Lumber Co</h1>
         <p>Advanced Wood Solutions for Builders & Contractors</p>

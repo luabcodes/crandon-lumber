@@ -1,11 +1,11 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ROOT CONFIG (VITE) */
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -21,7 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* GLOBAL */
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,7 +33,7 @@ body {
   color: #ffffff;
 }
 
-/* LINKS */
+
 a {
   font-weight: 500;
   color: #c8f2d1;
@@ -44,13 +44,13 @@ a:hover {
   color: #9be7b2;
 }
 
-/* HEADINGS */
+
 h1 {
   font-size: 3rem;
   line-height: 1.2;
 }
 
-/* BUTTONS */
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -74,7 +74,7 @@ button:focus-visible {
   outline: 3px solid #9be7b2;
 }
 
-/* LIGHT MODE (opcional) */
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

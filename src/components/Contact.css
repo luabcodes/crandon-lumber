@@ -3,7 +3,7 @@
   color: #ffffff;
 }
 
-/* FORM */
+
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 
-/* BANNER */
+
 .contact-banner {
   margin-top: 80px;
   text-align: center;
@@ -47,7 +47,7 @@
   border-radius: 18px;
 }
 
-/* 📱 MOBILE */
+
 @media (max-width: 768px) {
   .contact-form {
     padding: 0 8px;
