@@ -1,0 +1,49 @@
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+/* CARD */
+.product-card {
+  background: #111a13;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* MOLDURA DA IMAGEM */
+.product-image {
+  width: 100%;
+  height: 220px;           /* 🔑 força todas iguais */
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+/* IMAGEM */
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* 🔑 evita imagem achatada */
+}
+
+/* TEXTO */
+.product-card h3 {
+  margin: 12px 0 8px;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .product-image {
+    height: 180px;
+  }
+}
