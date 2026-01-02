@@ -1,12 +1,5 @@
 import "./Products.css";
 
-import caribbeanPine from "../assets/images/caribbean-pine.jpg";
-import douglasFir from "../assets/images/douglas-fir.jpg";
-import guanacaste from "../assets/images/guanacaste.jpg";
-import redOak from "../assets/images/red-oak.jpg";
-import poplar from "../assets/images/poplar.jpg";
-import whiteOak from "../assets/images/white-oak.jpg";
-
 function Products() {
   return (
     <section
@@ -29,7 +22,10 @@ function Products() {
         {/* Caribbean Pine */}
         <div className="product-card">
           <div className="product-image">
-            <img src={caribbeanPine} alt="Caribbean Pine Lumber" />
+            <img
+              src="/images/caribbean-pine.jpg"
+              alt="Caribbean Pine Lumber"
+            />
           </div>
           <h3>Caribbean Pine</h3>
           <p>
@@ -42,7 +38,10 @@ function Products() {
         {/* Douglas Fir */}
         <div className="product-card">
           <div className="product-image">
-            <img src={douglasFir} alt="Douglas Fir Lumber" />
+            <img
+              src="/images/douglas-fir.jpg"
+              alt="Douglas Fir Lumber"
+            />
           </div>
           <h3>Douglas Fir</h3>
           <p>
@@ -55,7 +54,10 @@ function Products() {
         {/* Guanacaste */}
         <div className="product-card">
           <div className="product-image">
-            <img src={guanacaste} alt="Guanacaste Wood" />
+            <img
+              src="/images/guanacaste.jpg"
+              alt="Guanacaste Wood"
+            />
           </div>
           <h3>Guanacaste</h3>
           <p>
@@ -68,7 +70,10 @@ function Products() {
         {/* Red Oak */}
         <div className="product-card">
           <div className="product-image">
-            <img src={redOak} alt="Red Oak Lumber" />
+            <img
+              src="/images/red-oak.jpg"
+              alt="Red Oak Lumber"
+            />
           </div>
           <h3>Red Oak</h3>
           <p>
@@ -81,7 +86,10 @@ function Products() {
         {/* Poplar */}
         <div className="product-card">
           <div className="product-image">
-            <img src={poplar} alt="Poplar Wood" />
+            <img
+              src="/images/poplar.jpg"
+              alt="Poplar Wood"
+            />
           </div>
           <h3>Poplar</h3>
           <p>
@@ -94,7 +102,10 @@ function Products() {
         {/* White Oak */}
         <div className="product-card">
           <div className="product-image">
-            <img src={whiteOak} alt="White Oak Lumber" />
+            <img
+              src="/images/white-oak.jpg"
+              alt="White Oak Lumber"
+            />
           </div>
           <h3>White Oak</h3>
           <p>

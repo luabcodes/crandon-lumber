@@ -30,7 +30,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #0b140e;
-  color: #ffffff;
+  color: #eef1ef;
+  padding-top: 120px;
 }
 
 
@@ -58,26 +59,33 @@ button {
   font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
+
   background-color: #1a2f1f;
   color: #ffffff;
+
   cursor: pointer;
   transition: all 0.25s ease;
+
+  
+  appearance: none;
+  -webkit-appearance: none;
 }
+
 
 button:hover {
   border-color: #9be7b2;
   background-color: #234b33;
 }
 
-button:focus,
 button:focus-visible {
   outline: 3px solid #9be7b2;
 }
 
 
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #ffffff;
     background-color: #ffffff;
   }
 

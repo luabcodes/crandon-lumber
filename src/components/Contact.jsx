@@ -1,6 +1,5 @@
 import "./Contact.css";
 import { useState } from "react";
-import bannercllc from "../assets/images/bannercllc.png";
 
 function Contact() {
   const [form, setForm] = useState({
@@ -51,8 +50,7 @@ ${form.message}
       </h2>
 
       {/* Formulário */}
-     <form onSubmit={handleSubmit} className="contact-form">
-
+      <form onSubmit={handleSubmit} className="contact-form">
         <input
           type="text"
           name="name"
@@ -89,15 +87,15 @@ ${form.message}
       </form>
 
       {/* Banner */}
-     <div className="contact-banner">
-
+      <div className="contact-banner">
         <img
-          src={bannercllc}
+          src="/images/bannercllc.png"
           alt="Crandon Lumber Banner"
           style={{
             width: "100%",
             maxWidth: "1000px",
             borderRadius: "18px",
+            marginTop: "60px",
           }}
         />
       </div>

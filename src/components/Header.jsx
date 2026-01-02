@@ -1,17 +1,22 @@
-import "./Header.css";
+import "./header.css";
 
 function Header() {
   return (
-    <header className="header">
-      <h1 className="logo">Crandon Lumber Co</h1>
+    <header
+      className="header"
+      style={{ backgroundImage: "url(/images/header-bg.jpg)" }}
+    >
+      <img
+        src="/images/logo.png"
+        alt="Crandon Lumber Logo"
+        className="logo"
+      />
 
-      <nav className="nav">
-        <ul className="nav-links">
-          <li><a href="#products">Products</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <ul className="nav-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </header>
   );
 }

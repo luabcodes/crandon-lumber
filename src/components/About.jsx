@@ -1,14 +1,30 @@
+import "./about.css";
+
 function About() {
   return (
-    <section id="about" style={{ padding: "100px 64px", background: "#070d09", color: "#fff" }}>
-      <h2>About Crandon Lumber Co</h2>
-      <p style={{ maxWidth: "720px", lineHeight: "1.7" }}>
-        Crandon Woods is a well-established Central American company and a strategic partner of Crandon Lumber Company in Florida.
+    <section id="about" className="about">
+      <div className="about-container">
+        <h2>About Crandon Lumber Co</h2>
 
-We specialize in the production, import, export, and distribution of fine woods. Our product range includes Southern Yellow Pine from the United States, Poplar, Red and White Oak, Douglas Fir, and premium hardwoods sourced from Central and South America.
+        <p>
+          Crandon Woods is a well-established Central American company and a strategic
+          partner of Crandon Lumber Company, based in Florida. We specialize in the
+          production, import, export, and global distribution of premium wood products.
+        </p>
 
-We proudly serve the furniture and construction industries, supplying high-quality materials to international markets with reliability, expertise, and a commitment to excellence.
-      </p>
+        <p>
+          Our portfolio includes Southern Yellow Pine sourced from the United States,
+          as well as Poplar, Red and White Oak, Douglas Fir, and selected hardwoods
+          from Central and South America.
+        </p>
+
+        <p>
+          We serve the furniture manufacturing and construction industries, delivering
+          high-quality materials to international markets through reliable supply
+          chains, industry expertise, and a strong commitment to quality, consistency,
+          and long-term partnerships.
+        </p>
+      </div>
     </section>
   );
 }

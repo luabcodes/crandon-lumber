@@ -1,25 +1,21 @@
-import woodVideo from "../assets/videos/wood.mp4";
 import "./Hero.css";
 
 function Hero() {
   return (
     <section className="hero">
-      <div className="video-frame">
-        <video
-          className="hero-video"
-          src={woodVideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
-      </div>
+      <video
+        className="hero-video"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/videos/wood.mp4" type="video/mp4" />
+      </video>
 
-      {}
-      <div className="hero-content-below">
-        <h1>Crandon Lumber Co</h1>
-        <p>Advanced Wood Solutions for Builders & Contractors</p>
-       
+      <div className="hero-content">
+        <h1>Crandon Lumber</h1>
+        <p>Fine Woods for Quality Projects</p>
       </div>
     </section>
   );
