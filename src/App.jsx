@@ -1,25 +1,13 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Products from "./components/Products";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-
 function App() {
   return (
-    <>
-      <Header />
-
-      <main>
-        <Hero />
-        <Products />
-        <About />
-        <Contact />
-      </main>
-
-      <Footer />
-    </>
-  );
+    <div style={{ padding: "2rem", fontFamily: "Arial" }}>
+      <h1>Crandon Lumber</h1>
+      <p>
+        Distribution and export of lumber and building materials for
+        international markets.
+      </p>
+    </div>
+  )
 }
 
-export default App;
+export default App

@@ -1,11 +1,3 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #0b140e;
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,96 +13,56 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-html {
-  scroll-behavior: smooth;
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
 body {
+  margin: 0;
+  display: flex;
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #0b140e;
-  color: #eef1ef;
-  padding-top: 120px;
 }
-
-
-a {
-  font-weight: 500;
-  color: #c8f2d1;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #9be7b2;
-}
-
 
 h1 {
-  font-size: 3rem;
-  line-height: 1.2;
+  font-size: 3.2em;
+  line-height: 1.1;
 }
-
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.75em 1.5em;
-  font-size: 1rem;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-
-  background-color: #1a2f1f;
-  color: #ffffff;
-
+  background-color: #1a1a1a;
   cursor: pointer;
-  transition: all 0.25s ease;
-
-  
-  appearance: none;
-  -webkit-appearance: none;
+  transition: border-color 0.25s;
 }
-
-
 button:hover {
-  border-color: #9be7b2;
-  background-color: #234b33;
+  border-color: #646cff;
 }
-
+button:focus,
 button:focus-visible {
-  outline: 3px solid #9be7b2;
+  outline: 4px auto -webkit-focus-ring-color;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #ffffff;
-    background-color: #ffffff;
-  }
-
-  body {
-    background-color: #ffffff;
     color: #213547;
+    background-color: #ffffff;
   }
-
   a:hover {
     color: #747bff;
   }
-
   button {
-    background-color: #f1f1f1;
-    color: #213547;
-  }
-}
-.section {
-  padding: 80px 64px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .section {
-    padding: 48px 24px;
+    background-color: #f9f9f9;
   }
 }
