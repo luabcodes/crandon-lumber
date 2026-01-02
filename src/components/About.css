@@ -1,57 +1,57 @@
 .about {
-  background: #0b140f;
-  padding: 120px 20px;
+  background-color: #0b140f;
+  padding: 140px 20px;
   display: flex;
   justify-content: center;
 }
 
 .about-container {
-  max-width: 1100px;
+  max-width: 900px;
   width: 100%;
+}
+
+
+.about h2 {
+  color: #ffffff;
+  font-size: 2.6rem;
+  margin-bottom: 48px;
   text-align: center;
 }
 
-.about h2 {
-  font-size: 2.5rem;
+
+.about h3 {
   color: #ffffff;
-  margin-bottom: 24px;
+  font-size: 1.6rem;
+  margin-top: 64px;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
-.about-text {
+
+.about p {
   color: #cfd8d3;
-  max-width: 700px;
-  margin: 0 auto 60px;
   font-size: 1.05rem;
-  line-height: 1.7;
+  line-height: 1.9;
+  margin-bottom: 28px;
 }
 
-.about-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 24px;
+
+.about h2,
+.about h3,
+.about p {
+  text-decoration: none;
 }
 
-.about-card {
-  background: #111f17;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 16px;
-  padding: 32px 24px;
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+@media (max-width: 768px) {
+  .about {
+    padding: 100px 20px;
+  }
 
-.about-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-}
+  .about h2 {
+    font-size: 2.1rem;
+  }
 
-.about-card h3 {
-  color: #ffffff;
-  margin-bottom: 12px;
-}
-
-.about-card p {
-  color: #cfd8d3;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  .about h3 {
+    font-size: 1.4rem;
+  }
 }
