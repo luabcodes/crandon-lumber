@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next"
 export default function Header() {
+ const { t, i18n } = useTranslation()
+
   return (
     <header
       style={{
@@ -22,10 +25,17 @@ export default function Header() {
       >
         <strong>Crandon Lumber</strong>
 
-        <div style={{ display: "flex", gap: "1.5rem" }}>
-          <a href="#products">Products</a>
-          <a href="#about">About Us</a>
-          <a href="#contact">Contact</a>
+        <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
+          <a href="#products">{t("nav.products")}</a>
+          <a href="#about">{t("nav.about")}</a>
+          <a href="#contact">{t("nav.contact")}</a>
+
+
+          {/* Language switch */}
+          <div style={{ display: "flex", gap: "0.5rem" }}>
+            <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+            <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+          </div>
         </div>
       </nav>
     </header>

@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Crandon Lumber is a regional supplier and exporter of high-quality lumber and building materials, serving Central America with a strong focus on reliability, compliance, and long-term partnerships."
+  },
+  "products": {
+    "title": "Our Wood Species"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email us"
+  }
+}
