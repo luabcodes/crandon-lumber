@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next"
 import heroVideo from "../assets/wood.mp4"
 
 function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section style={{ width: "100%" }}>
       {/* VÍDEO */}
@@ -27,8 +30,7 @@ function Hero() {
       >
         <h1>Crandon Lumber</h1>
         <p>
-          Distribution and export of lumber and building materials for
-          international markets
+          {t("hero.subtitle")}
         </p>
       </div>
     </section>

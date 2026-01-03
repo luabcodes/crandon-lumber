@@ -1,18 +1,93 @@
 {
   "nav": {
-    "about": "Sobre Nosotros",
     "products": "Productos",
+    "aboutUs": "Sobre Nosotros",
     "contact": "Contacto"
   },
-  "about": {
-    "title": "Sobre Nosotros",
-    "description": "Crandon Lumber es un proveedor regional y exportador de madera y materiales de construcción de alta calidad, que atiende a Centroamérica con un fuerte enfoque en confiabilidad, cumplimiento y asociaciones a largo plazo."
+
+  "hero": {
+    "title": "Distribución y exportación de madera",
+    "subtitle": "Distribución y exportación de madera y materiales de construcción para mercados internacionales"
   },
+
+ "about": {
+  "title": "Sobre Nosotros",
+  "p1": "Crandon Lumber es un proveedor y exportador regional de madera y materiales de construcción de alta calidad, sirviendo a Centroamérica con un fuerte enfoque en confiabilidad, cumplimiento y relaciones a largo plazo.",
+
+  "p2": "Con sede en Ciudad de Guatemala, Crandon Lumber se especializa en la distribución y exportación de Southern Yellow Pine (SYP) obtenido directamente de los principales aserraderos del sureste de Estados Unidos. Nuestras operaciones apoyan mercados clave, incluyendo El Salvador, México y países vecinos.",
+
+  "marketTitle": "Posición en el Mercado",
+  "p3": "El Salvador representa un mercado estratégico de crecimiento para Crandon Lumber. Con una economía dolarizada, políticas pro-comercio y el acuerdo de libre comercio CAFTA-DR, el país ofrece condiciones favorables para la importación de madera de origen estadounidense.",
+
+  "complianceTitle": "Cumplimiento y Normativas Comerciales",
+  "p4": "Crandon Lumber opera cumpliendo estrictamente las regulaciones internacionales de comercio, aduanas y requisitos fitosanitarios. Todos los envíos cuentan con la documentación comercial requerida y certificación fitosanitaria USDA APHIS.",
+
+  "logisticsTitle": "Logística y Cadena de Suministro",
+  "p5": "Nuestra estrategia logística garantiza eficiencia, confiabilidad y entrega oportuna mediante socios logísticos experimentados y redes de transporte regionales establecidas.",
+
+  "advantageTitle": "Ventaja Competitiva",
+  "p6": "Al abastecer Southern Yellow Pine directamente de los principales aserraderos de EE. UU., Crandon Lumber mantiene control sobre la calidad del producto, la estabilidad de precios y la continuidad del suministro.",
+
+  "commitmentTitle": "Nuestro Compromiso",
+  "p7": "Crandon Lumber está comprometido con construir relaciones a largo plazo basadas en confianza, calidad y excelencia operacional en toda Centroamérica."
+}
+,
+
   "products": {
-    "title": "Nuestras Especies de Madera"
+    "title": "Especies de Madera",
+
+    "syp": {
+      "name": "Southern Yellow Pine",
+      "description": "Madera blanda fuerte y versátil, ampliamente utilizada en construcción y aplicaciones estructurales."
+    },
+
+    "poplar": {
+      "name": "Álamo",
+      "description": "Madera dura ligera, utilizada en muebles, acabados interiores y embalajes."
+    },
+
+    "douglasFir": {
+      "name": "Douglas Fir",
+      "description": "Madera blanda de alta resistencia, ideal para vigas y estructuras."
+    },
+
+    "whiteOak": {
+      "name": "Roble Blanco",
+      "description": "Madera dura duradera con alta resistencia a la humedad."
+    },
+
+    "redOak": {
+      "name": "Roble Rojo",
+      "description": "Madera dura popular por su veta atractiva y resistencia."
+    },
+
+    "caribbeanPine": {
+      "name": "Pino Caribeño (Ocote)",
+      "description": "Madera blanda resistente para construcción y uso industrial."
+    },
+
+    "guanacaste": {
+      "name": "Guanacaste",
+      "description": "Madera tropical reconocida por sus vetas únicas y tonos cálidos."
+    },
+
+    "primavera": {
+      "name": "Primavera (Palo Blanco)",
+      "description": "Madera tropical ligera utilizada en muebles y aplicaciones interiores."
+    }
   },
+
   "contact": {
     "title": "Contáctanos",
-    "email": "Envíanos un correo"
+    "description": "Para consultas, cotizaciones u oportunidades de asociación, contáctanos por correo electrónico. Nuestro equipo responderá a la brevedad.",
+    "email": "Enviar correo"
+  },
+
+  "footer": {
+    "companyDescription": "Distribución y exportación de madera y materiales de construcción de alta calidad para mercados internacionales, sirviendo a Centroamérica con confiabilidad y cumplimiento.",
+    "productsTitle": "Productos",
+    "contactTitle": "Contacto",
+    "phone": "Teléfono",
+    "rights": "Todos los derechos reservados."
   }
 }

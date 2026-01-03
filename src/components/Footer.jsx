@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next"
+
 function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer
       style={{
@@ -21,36 +25,34 @@ function Footer() {
         <div>
           <h3>Crandon Lumber</h3>
           <p style={{ lineHeight: "1.6", fontSize: "0.95rem" }}>
-            Distribution and export of high-quality lumber and building materials
-            for international markets, serving Central America with reliability
-            and compliance.
+            {t("footer.companyDescription")}
           </p>
         </div>
 
         {/* PRODUCTS */}
         <div>
-          <h4>Products</h4>
+          <h4>{t("footer.productsTitle")}</h4>
           <ul style={{ listStyle: "none", padding: 0, lineHeight: "1.8" }}>
-            <li>Southern Yellow Pine</li>
-            <li>Poplar</li>
-            <li>Douglas Fir</li>
-            <li>White Oak</li>
-            <li>Red Oak</li>
-            <li>Caribbean Pine (Ocote)</li>
-            <li>Guanacaste</li>
-            <li>Primavera (Palo Blanco)</li>
+            <li>{t("products.syp.name")}</li>
+            <li>{t("products.poplar.name")}</li>
+            <li>{t("products.douglasFir.name")}</li>
+            <li>{t("products.whiteOak.name")}</li>
+            <li>{t("products.redOak.name")}</li>
+            <li>{t("products.caribbeanPine.name")}</li>
+            <li>{t("products.guanacaste.name")}</li>
+            <li>{t("products.primavera.name")}</li>
           </ul>
         </div>
 
         {/* CONTACT */}
         <div>
-          <h4>Contact</h4>
+          <h4>{t("footer.contactTitle")}</h4>
           <p style={{ lineHeight: "1.6" }}>
-           Miami ,FL
+            Miami, FL
             <br />
             Email: crandonlumberco@outlook.com
             <br />
-            Phone: 305 853 6836
+            {t("footer.phone")}: 305 853 6836
           </p>
         </div>
       </div>
@@ -66,7 +68,7 @@ function Footer() {
           color: "#d1d5db"
         }}
       >
-        © {new Date().getFullYear()} Crandon Lumber. All rights reserved.
+        © {new Date().getFullYear()} Crandon Lumber. {t("footer.rights")}
       </div>
     </footer>
   )

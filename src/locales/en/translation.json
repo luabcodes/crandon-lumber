@@ -1,18 +1,93 @@
 {
   "nav": {
-    "about": "About Us",
     "products": "Products",
+    "aboutUs": "About Us",
     "contact": "Contact"
   },
+
+  "hero": {
+    "title": "Lumber Distribution and Export",
+    "subtitle": "Distribution and export of lumber and building materials for international markets"
+  },
+
   "about": {
-    "title": "About Us",
-    "description": "Crandon Lumber is a regional supplier and exporter of high-quality lumber and building materials, serving Central America with a strong focus on reliability, compliance, and long-term partnerships."
-  },
+  "title": "About Us",
+  "p1": "Crandon Lumber is a regional supplier and exporter of high-quality lumber and building materials, serving Central America with a strong focus on reliability, compliance, and long-term partnerships.",
+
+  "p2": "Headquartered in Guatemala City, Crandon Lumber specializes in the distribution and export of Southern Yellow Pine (SYP) sourced directly from leading sawmills in the southeastern United States. Our operations support key markets including El Salvador, Mexico, and neighboring countries.",
+
+  "marketTitle": "Market Position",
+  "p3": "El Salvador represents a strategic growth market for Crandon Lumber. Supported by a dollarized economy, pro-trade policies, and the CAFTA-DR free trade agreement, the country offers favorable conditions for the import of U.S.-origin lumber.",
+
+  "complianceTitle": "Compliance and Trade Standards",
+  "p4": "Crandon Lumber operates in strict compliance with international trade, customs, and phytosanitary regulations. All shipments are accompanied by the required commercial documentation and USDA APHIS phytosanitary certifications.",
+
+  "logisticsTitle": "Logistics and Supply Chain",
+  "p5": "Our logistics strategy ensures efficiency, reliability, and timely delivery through experienced logistics partners and established regional transportation networks.",
+
+  "advantageTitle": "Competitive Advantage",
+  "p6": "By sourcing Southern Yellow Pine directly from top-producing U.S. sawmills, Crandon Lumber maintains control over product quality, pricing stability, and supply continuity.",
+
+  "commitmentTitle": "Our Commitment",
+  "p7": "Crandon Lumber is committed to building long-term partnerships based on trust, quality, and operational excellence across Central America."
+}
+,
+
   "products": {
-    "title": "Our Wood Species"
+    "title": "Our Wood Species",
+
+    "syp": {
+      "name": "Southern Yellow Pine",
+      "description": "A strong and versatile softwood widely used in construction and structural applications."
+    },
+
+    "poplar": {
+      "name": "Poplar",
+      "description": "A lightweight hardwood commonly used for furniture components and interior finishes."
+    },
+
+    "douglasFir": {
+      "name": "Douglas Fir",
+      "description": "A premium softwood valued for its high strength-to-weight ratio, ideal for beams and framing."
+    },
+
+    "whiteOak": {
+      "name": "White Oak",
+      "description": "A durable hardwood with excellent resistance to moisture, widely used in flooring and cabinetry."
+    },
+
+    "redOak": {
+      "name": "Red Oak",
+      "description": "A popular hardwood known for its attractive grain and strength."
+    },
+
+    "caribbeanPine": {
+      "name": "Caribbean Pine (Ocote)",
+      "description": "A resilient softwood suitable for construction and industrial applications."
+    },
+
+    "guanacaste": {
+      "name": "Guanacaste",
+      "description": "A tropical hardwood recognized for its unique grain patterns and warm tones."
+    },
+
+    "primavera": {
+      "name": "Primavera (Palo Blanco)",
+      "description": "A lightweight tropical hardwood commonly used for furniture and interior applications."
+    }
   },
+
   "contact": {
     "title": "Contact Us",
-    "email": "Email us"
+    "description": "For inquiries, quotations, or partnership opportunities, please contact us via email. Our team will respond promptly.",
+    "email": "Send Email"
+  },
+
+  "footer": {
+    "companyDescription": "Distribution and export of high-quality lumber and building materials for international markets, serving Central America with reliability and compliance.",
+    "productsTitle": "Products",
+    "contactTitle": "Contact",
+    "phone": "Phone",
+    "rights": "All rights reserved."
   }
 }

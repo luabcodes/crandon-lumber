@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next"
+
 function Contact() {
+  const { t } = useTranslation()
+
   return (
     <section
-    id="contact"
+      id="contact"
       style={{
         padding: "4rem",
         backgroundColor: "#F5F5F5"
@@ -14,11 +18,12 @@ function Contact() {
           textAlign: "center"
         }}
       >
-        <h2 style={{ marginBottom: "1rem" }}>Contact Us</h2>
+        <h2 style={{ marginBottom: "1rem" }}>
+          {t("contact.title")}
+        </h2>
 
         <p style={{ marginBottom: "2rem", fontSize: "1.05rem" }}>
-          For inquiries, quotations, or partnership opportunities, please contact
-          us via email. Our team will respond promptly.
+          {t("contact.description")}
         </p>
 
         <a
@@ -33,7 +38,7 @@ function Contact() {
             borderRadius: "6px"
           }}
         >
-          Contact Us
+          {t("contact.email")}
         </a>
       </div>
     </section>
